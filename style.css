@@ -146,6 +146,9 @@ tr:nth-child(odd) {background: #FFF}
 
 
 footer{
+	position: absolute;
+	bottom: 0;
+	width:100%;
 	background-color: #C7CADA;
 	color: white;
 	text-align: center;
@@ -156,7 +159,7 @@ footer{
 
 }
 
-html,
+/*html,
 body {
   height: 100%;
 }
@@ -171,4 +174,4 @@ body {
 footer,
 .push {
   height: 105px;
-}
+}*/
