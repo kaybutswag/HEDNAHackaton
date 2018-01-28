@@ -1,0 +1,156 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Karla', sans-serif;
+	background-color: #f3f4f7;
+
+}
+
+.navbar{
+	margin-bottom: 50px;
+}
+
+#wMessage{
+	text-align: center;
+	font-size: 36px;
+}
+
+#wMessage2{
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 100px;
+}
+
+.iconWrapper{
+	text-align: center;
+}
+
+
+.icons{
+	height: 200px;
+	padding: 5px;
+	margin:auto;
+}
+
+
+.navbar-brand{
+	font-family: 'Pacifico', cursive;
+}
+
+
+h2{
+	text-align: center;
+	margin:auto;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	width: 650px;	
+}
+
+
+.cardContainer{
+	text-align: center;
+	margin: auto;
+	max-width: 600px;
+}
+
+.card{
+	float: left;
+	margin: 5px;
+	border-radius: 25px;
+	height: 250px;
+	background-color: #f9f9fb;
+	
+}
+
+.card:hover{
+	
+	box-shadow: 5px 5px 20px #C7CADA;
+}
+
+
+.card-img-top{
+	width: 60px;
+	margin-top: 30px;
+	margin-left: 39%;
+	margin-bottom: 20px;
+}
+
+.card-btn{
+	margin-top: 20px;
+}
+.topSpace{
+	text-align: center;
+	margin:auto;
+	margin-bottom:60px;
+}
+
+.dataHeading{
+	width: 200px;
+	float:left;
+	margin-right: 180px;
+	margin-top: 3px;
+	font-size: 18px;
+	line-height: 24px;	
+
+}
+
+.search{
+	margin-right: 150px;
+	margin-top: 4px;
+	height: 24px;
+}
+
+.search, .promo{
+	float: left;
+}
+
+.promo{
+	color: blue;	
+}
+
+.tableContainer{
+	margin-top: 100px;
+}
+
+#selectRow{
+	text-align: right;
+}
+
+th{
+	width: 33%;	
+	background-color: black;
+	color: white;
+	padding: 5px;
+	
+}
+
+footer{
+	background-color: #C7CADA;
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 30px;
+	padding-top: 30px;
+	margin-top: 100px;	
+
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  margin: 0 auto -105px;
+}
+
+footer,
+.push {
+  height: 105px;
+}
