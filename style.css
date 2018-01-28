@@ -36,7 +36,7 @@ body{
 
 
 .navbar-brand{
-	font-family: 'Pacifico', cursive;
+	font-family: 'Raleway';
 }
 
 
@@ -115,9 +115,7 @@ h2{
 	margin-top: 100px;
 }
 
-#selectRow{
-	text-align: right;
-}
+
 
 th{
 	width: 33%;	
@@ -126,6 +124,26 @@ th{
 	padding: 5px;
 	
 }
+
+#selectHead{
+	text-align: right;
+	padding-right: 10px;
+}
+
+.selectRow{
+	text-align: right;
+	padding-right: 10px;
+}
+
+.GVI{
+	padding-left: 60px;
+}
+tr{
+	line-height: 30px;
+}
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
 
 footer{
 	background-color: #C7CADA;
